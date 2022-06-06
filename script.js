@@ -16,10 +16,10 @@ function countdown() {
   const mins = Math.floor(totalSeconds / 60) % 60;
   const secs = Math.floor(totalSeconds) % 60;
 
-  daysEl.innerHTML = formatTime(days);
-  hoursEl.innerHTML = formatTime(hours);
-  minsEl.innerHTML = formatTime(mins);
-  secsEl.innerHTML = formatTime(secs);
+  daysEl.innerHTML = days;
+  hoursEl.innerHTML = hours;
+  minsEl.innerHTML = mins;
+  secsEl.innerHTML = secs;
 }
 
 countdown();
